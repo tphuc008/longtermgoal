@@ -56,7 +56,6 @@ export const vi: Record<string, string> = {
   'No description added yet.':'Chưa có mô tả.',
   'Independent project':'Dự án độc lập',
   'Milestone title':'Tên cột mốc',
-  '7-day activity trend':'Xu hướng hoạt động 7 ngày',
   'All':'Tất cả','No matching tasks':'Không có công việc phù hợp',
 };
 
