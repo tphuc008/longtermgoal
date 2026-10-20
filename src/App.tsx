@@ -7,7 +7,7 @@ import { enUS, vi as viDate } from 'date-fns/locale';
 import { Language, translate } from './i18n';
 import { Area, day, demoWorkspace, emptyWorkspace, goalProgress, Goal, isWorkspace, loadWorkspace, Priority, Project, saveWorkspace, Status, Task, TaskStatus, uid, Workspace } from './model';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { AlertCircle, ArrowRight, ArrowUpRight, BarChart3, CalendarDays, Check, CheckCircle2, ChevronDown, ChevronRight, Compass, Download, Ellipsis, Flag, FolderKanban, Inbox, LayoutDashboard, Menu, Moon, MoreHorizontal, Plus, RotateCcw, Search, Settings2, ShieldCheck, SlidersHorizontal, Sparkles, Sun, Target, Trash2, TrendingUp, Upload, X } from 'lucide-react';
+import { AlertCircle, ArrowRight, ArrowUpRight, BarChart3, CalendarDays, Check, CheckCircle2, ChevronDown, ChevronRight, Compass, Download, Ellipsis, Flag, FolderKanban, LayoutDashboard, Menu, Moon, MoreHorizontal, Plus, RotateCcw, Search, Settings2, ShieldCheck, SlidersHorizontal, Sparkles, Sun, Target, Trash2, TrendingUp, Upload, X } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 const LanguageContext = createContext<Language>('vi');
