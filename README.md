@@ -30,7 +30,7 @@ For cross-device synchronization and authentication, the next version can add Su
 
 ## GitHub Pages
 
-The repository includes `.github/workflows/deploy.yml`. After pushing to `main`, set **Settings > Pages > Build and deployment > Source: GitHub Actions**. The workflow uses Vite's `/longtermgoal/` production base path. The site URL will normally be `https://tphuc008.github.io/longtermgoal/` *if GitHub Pages is enabled and permitted for this repository*. Private repository Pages availability depends on GitHub plan/settings. Repo publication and public site deployment are distinct steps.
+The repository includes `.github/workflows/deploy.yml`. For a live site, first enable **Settings > Pages > Build and deployment > Source: GitHub Actions**, then manually start **Actions > Build and deploy to GitHub Pages > Run workflow**. Every push runs a production build check; Pages deployment runs on manual dispatch only. The workflow uses Vite's `/longtermgoal/` production base path. The site URL will normally be `https://tphuc008.github.io/longtermgoal/` *if GitHub Pages is enabled and permitted for this repository*. Private repository Pages availability depends on GitHub plan/settings. Repo publication and public site deployment are distinct steps.
 
 ## Notes
 
