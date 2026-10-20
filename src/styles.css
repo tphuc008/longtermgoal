@@ -17,3 +17,27 @@ h1{font-size:25px;letter-spacing:-.85px;line-height:1.25}h2{font-size:14px;lette
 @media(max-width:1250px){.sidebar{width:218px;flex-basis:218px}.main-content{padding:20px}.topbar{padding:0 20px}.stat-card{padding:12px}.dashboard-grid{gap:12px}}
 @media(max-width:900px){.sidebar{width:245px;flex-basis:245px}.main-content{padding:18px}.dashboard-grid,.bottom-grid,.review-grid,.today-grid,.planner-bottom{grid-template-columns:1fr}.lang-switch{margin-left:auto}}
 @media(max-width:600px){.topbar{height:56px;padding:0 12px}.topbar-right{gap:5px}.top-add{font-size:11px;padding:0 9px}.lang-switch{padding:2px}.lang-switch button{min-width:29px;height:26px;font-size:10px}.main-content{padding:16px 12px}.page-heading,.page-heading.hero{gap:9px;margin-bottom:14px}.page-heading p{font-size:11px}.stat-grid{gap:8px}.stat-card{min-height:104px;padding:11px}.stat-head{font-size:10.5px}.stat-foot{font-size:10px}.stat-number{font-size:25px}.dashboard-grid{gap:11px}.chart-container{height:180px}.goals-table{padding:0 12px 5px}.review-form{padding:14px}.goal-cards,.project-grid{gap:10px}.app-footer{padding:10px 12px 14px}}
+/* Goals and projects — focused, compact workspace */
+.portfolio-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.portfolio-stats{gap:12px;margin-bottom:16px}
+.portfolio-stats .stat-card{min-height:110px;padding:16px 18px}
+.portfolio-stats .stat-number{font-size:26px;margin-top:4px}
+.portfolio-stats .stat-foot{font-size:11px}
+.portfolio-bottom{margin-top:16px}
+.portfolio-bottom .panel{min-width:0}
+.compact-project-link{width:100%;background:transparent;border:0;text-align:left;color:var(--text);cursor:pointer}
+.compact-project-link:hover{background:var(--hover)}
+.deadline-goal-copy{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px;text-align:left}
+.deadline-goal-copy strong{font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.deadline-goal-copy small{font-size:11px;color:var(--secondary)}
+.project-task-heading{padding:12px 0 8px;border-top:1px solid var(--border);font-size:12px}
+.project-task-list{max-height:270px;overflow-y:auto}
+.project-task-list .task-row{padding:9px 2px}
+.project-task-list .task-details{min-width:0}
+.unassigned-panel{padding:18px;margin-top:16px}
+.project-analytics-list{display:flex;flex-direction:column;gap:20px;padding:18px 20px;max-height:330px;overflow:auto}
+.project-analytics-item{display:flex;flex-direction:column;gap:8px}
+.project-analytics-label{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.project-analytics-label strong{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.project-analytics-label span{font-size:11px;color:var(--secondary);white-space:nowrap}
+@media(max-width:680px){.portfolio-actions{width:100%}.portfolio-actions .btn{flex:1}.portfolio-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.portfolio-bottom{grid-template-columns:1fr}.project-analytics-label{align-items:flex-start;flex-direction:column;gap:4px}}
